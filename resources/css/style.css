@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white;
+  font-family: "Rubik", sans-serif;
+}
+body.dark {
+  @apply bg-black text-white;
+}
+
+/* Header */
+.solid-header {
+  @apply dark:bg-black bg-white border-b border-gray-800 dark:border-white;
+}
+
+/* Menus */
+#menu-primary {
+  @apply hidden md:flex justify-end items-center;
+}
+#menu-primary li {
+  @apply uppercase dark:text-white font-light text-sm mx-4;
+}
+header.absolute #menu-primary li {
+  @apply text-primary dark:text-white;
+}
+#menu-primary li a {
+  @apply px-4 py-1;
+}
+#menu-primary li.current-menu-item a {
+  @apply border border-primary rounded-3xl;
+}
+.hamburger-menu-wrapper {
+  @apply flex h-screen w-screen fixed top-0 left-0 bg-black bg-opacity-40 overflow-hidden z-30;
+}
+.hamburger-menu-container {
+  @apply dark:bg-black dark:text-white w-4/6 h-full px-6 py-8 relative z-40 overflow-y-auto;
+}
+#hamburger-menu > li .sub-menu {
+  @apply hidden pl-2 py-1;
+}
+#hamburger-menu > li > a {
+  display: flex !important;
+  @apply py-2 border-b border-gray-300;
+}
+#hamburger-menu > li:last-child > a {
+  @apply border-none;
+}
+#hamburger-menu li.menu-item-has-children > a {
+  @apply relative block;
+}
+
+/* Botões */
+.btn-link {
+  @apply px-4 py-1 border rounded-3xl uppercase text-center text-sm font-light;
+}
+
+/* Home Banner */
+.banner-item {
+  @apply h-full w-full bg-no-repeat bg-cover bg-center;
+}
+.slider .banner-item {
+  height: calc(100vh - 100px);
+}
+.banner-item div {
+  @apply flex bg-black bg-opacity-40 md:bg-opacity-0 md:hidden text-center text-white w-full h-full flex-col justify-center items-center transition;
+}
+.banner-item:hover div {
+  @apply flex bg-black bg-opacity-40;
+}
+.arrow {
+  @apply absolute top-1/2 z-10;
+}
+.arrow-left {
+  @apply left-2;
+}
+.arrow-right {
+  @apply right-2;
+}
+
+/* Content */
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  @apply text-primary uppercase font-medium mb-1;
+}
+.content h1 {
+  @apply text-4xl mb-3;
+}
+.content h2 {
+  @apply text-3xl mb-2;
+}
+.content h3 {
+  @apply text-2xl;
+}
+.content h4 {
+  @apply text-xl;
+}
+.content h5 {
+  @apply text-lg;
+}
+.content p {
+  @apply mb-1 font-light;
+}
+.content ul {
+  @apply list-outside list-disc;
+}
+.content strong {
+  @apply text-primary font-bold;
+}
+.content iframe {
+  @apply max-w-full;
+}
+.content .alignleft {
+  @apply float-left mr-2;
+}
+.content .alignright {
+  @apply float-right ml-2;
+}
+.wp-block-gallery figure {
+  @apply px-1;
+}
+.wp-block-gallery .slick-dots {
+  @apply w-full flex justify-center items-center text-transparent list-none mt-4;
+}
+.wp-block-gallery .slick-dots li {
+  @apply h-4 w-4 bg-primary rounded-full mx-1 cursor-pointer outline-none;
+}
+.wp-block-gallery .slick-dots li.slick-active {
+  @apply h-6 w-6;
+}
+
+/* Forms */
+.input-field {
+  @apply rounded-2xl px-3 py-1 mb-3 border-black border max-w-full;
+}
+.input-textarea {
+  @apply input-field h-24;
+}
+.input-submit {
+  @apply border border-black px-4 py-1 text-center text-black mx-auto rounded-2xl cursor-pointer;
+}
+
+.form label {
+  @apply block mb-2 text-sm font-medium text-gray-900;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
+.form input[type="time"],
+.form input[type="datetime"],
+.form input[type="number"] {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5;
+}
+.form textarea {
+  @apply block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500;
+}
+.form input[type="submit"] {
+  @apply cursor-pointer text-gray-900 bg-primary hover:opacity-70 focus:ring-4 focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2;
+}
+
+/* Tabs */
+.tabs {
+  @apply flex justify-end;
+}
+.tabs li {
+  @apply uppercase dark:text-white font-light text-xs ml-3;
+}
+.tabs li a {
+  @apply px-2 py-1;
+}
+.tabs li a.active {
+  @apply border border-black dark:border-white rounded-3xl;
+}
+.tabs-container > div {
+  @apply hidden;
+}
+.tabs-container > div.active {
+  @apply block;
+}
+
+/* Mosaic */
+.mosaic {
+  @apply bg-cover bg-no-repeat bg-center w-full flex flex-col justify-end p-3;
+}
+.mosaic-vertical {
+  @apply mosaic h-[150px] md:h-[500px];
+}
+.mosaic-horizontal {
+  @apply mosaic h-[150px] md:h-full;
+}
+.mosaic-horizontal-full {
+  @apply mosaic-horizontal h-[150px] md:h-[500px];
+}
+.vertical-column {
+  @apply w-full md:w-1/2 md:px-1 mb-2;
+}
+.full-column {
+  @apply w-full mb-2 px-1;
+}
+.horizontal-column {
+  @apply w-full md:w-1/2 flex flex-col md:px-1 mb-2;
+}
+.horizontal-column > a:nth-child(2) {
+  @apply mt-2;
+}
+
+.title-project {
+  @apply text-primary uppercase text-xl font-medium;
+}

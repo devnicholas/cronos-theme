@@ -1,0 +1,276 @@
+{
+  "menus": [
+    {
+      "name": "Menu primário",
+      "position": "menu-primary",
+      "items": [
+        {
+          "label": "Home",
+          "url": "/home"
+        },
+        {
+          "label": "Portfólio",
+          "url": "/portfolio"
+        },
+        {
+          "label": "Blog",
+          "url": "/"
+        },
+        {
+          "label": "Contato",
+          "url": "/contato"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "name": "Home",
+      "type": "page",
+      "fields": [
+        {
+          "key": "slider",
+          "value": [
+            [
+              {
+                "key": "slider_image",
+                "value": "https://placehold.co/288x666/000000/FFFFFF.png",
+                "isFile": true
+              },
+              {
+                "key": "slider_title",
+                "value": "Sed quis placerat diam",
+                "isFile": false
+              },
+              {
+                "key": "slider_url",
+                "value": "#",
+                "isFile": false
+              }
+            ],
+            [
+              {
+                "key": "slider_image",
+                "value": "https://placehold.co/288x666/000000/FFFFFF.png",
+                "isFile": true
+              },
+              {
+                "key": "slider_title",
+                "value": "Aenean nulla ipsum",
+                "isFile": false
+              },
+              {
+                "key": "slider_url",
+                "value": "#",
+                "isFile": false
+              }
+            ],
+            [
+              {
+                "key": "slider_image",
+                "value": "https://placehold.co/288x666/000000/FFFFFF.png",
+                "isFile": true
+              },
+              {
+                "key": "slider_title",
+                "value": "Suspendisse potenti",
+                "isFile": false
+              },
+              {
+                "key": "slider_url",
+                "value": "#",
+                "isFile": false
+              }
+            ],
+            [
+              {
+                "key": "slider_image",
+                "value": "https://placehold.co/288x666/000000/FFFFFF.png",
+                "isFile": true
+              },
+              {
+                "key": "slider_title",
+                "value": "Ut et hendrerit sapien",
+                "isFile": false
+              },
+              {
+                "key": "slider_url",
+                "value": "#",
+                "isFile": false
+              }
+            ]
+          ],
+          "isFile": false
+        }
+      ]
+    },
+    {
+      "name": "Portfólio",
+      "type": "page",
+      "fields": []
+    },
+    {
+      "name": "Contato",
+      "type": "page",
+      "fields": [
+        {
+          "key": "form",
+          "value": "[contact-form-7 id='0' title='Formulário de contato 1']",
+          "isFile": false
+        },
+        {
+          "key": "email",
+          "value": "example@mail.com",
+          "isFile": false
+        },
+        {
+          "key": "phone",
+          "value": "(00) 0000-0000",
+          "isFile": false
+        },
+        {
+          "key": "address",
+          "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor esse sint aut sequi possimus",
+          "isFile": false
+        }
+      ]
+    },
+    {
+      "name": "Vivamus elit nibh",
+      "type": "post",
+      "fields": [],
+      "options": {
+        "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis erat et tellus ultrices vulputate. Ut quis euismod lorem. Nunc pretium at lacus quis pulvinar. Donec eu dignissim justo, sit amet malesuada erat. Vestibulum a augue vel mi vehicula accumsan. Aliquam laoreet ultricies commodo. Vivamus elit nibh, consequat sit amet egestas a, sagittis tempus lacus. Vestibulum vitae est faucibus, egestas ipsum eu, pellentesque quam. Donec tellus velit, tempus vitae felis ac, mollis laoreet turpis. Vestibulum vel vulputate velit. Curabitur diam mauris, malesuada vitae bibendum et, mattis et nisi. Vestibulum commodo suscipit arcu, in dignissim risus. Proin feugiat felis eget orci egestas varius. Sed ultrices quam libero, a tincidunt lacus egestas sed. Phasellus gravida dui vitae aliquam consectetur. Curabitur tristique, ipsum at luctus vulputate, orci justo porttitor nulla, vel pretium elit augue a lorem."
+      }
+    },
+    {
+      "name": "Phasellus gravida dui vitae",
+      "type": "post",
+      "fields": [],
+      "options": {
+        "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis erat et tellus ultrices vulputate. Ut quis euismod lorem. Nunc pretium at lacus quis pulvinar. Donec eu dignissim justo, sit amet malesuada erat. Vestibulum a augue vel mi vehicula accumsan. Aliquam laoreet ultricies commodo. Vivamus elit nibh, consequat sit amet egestas a, sagittis tempus lacus. Vestibulum vitae est faucibus, egestas ipsum eu, pellentesque quam. Donec tellus velit, tempus vitae felis ac, mollis laoreet turpis. Vestibulum vel vulputate velit. Curabitur diam mauris, malesuada vitae bibendum et, mattis et nisi. Vestibulum commodo suscipit arcu, in dignissim risus. Proin feugiat felis eget orci egestas varius. Sed ultrices quam libero, a tincidunt lacus egestas sed. Phasellus gravida dui vitae aliquam consectetur. Curabitur tristique, ipsum at luctus vulputate, orci justo porttitor nulla, vel pretium elit augue a lorem."
+      }
+    },
+    {
+      "name": "Consequat sit amet egestas",
+      "type": "post",
+      "fields": [],
+      "options": {
+        "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis erat et tellus ultrices vulputate. Ut quis euismod lorem. Nunc pretium at lacus quis pulvinar. Donec eu dignissim justo, sit amet malesuada erat. Vestibulum a augue vel mi vehicula accumsan. Aliquam laoreet ultricies commodo. Vivamus elit nibh, consequat sit amet egestas a, sagittis tempus lacus. Vestibulum vitae est faucibus, egestas ipsum eu, pellentesque quam. Donec tellus velit, tempus vitae felis ac, mollis laoreet turpis. Vestibulum vel vulputate velit. Curabitur diam mauris, malesuada vitae bibendum et, mattis et nisi. Vestibulum commodo suscipit arcu, in dignissim risus. Proin feugiat felis eget orci egestas varius. Sed ultrices quam libero, a tincidunt lacus egestas sed. Phasellus gravida dui vitae aliquam consectetur. Curabitur tristique, ipsum at luctus vulputate, orci justo porttitor nulla, vel pretium elit augue a lorem."
+      }
+    },
+    {
+      "name": "In vel scelerisque purus",
+      "type": "portfolio",
+      "fields": [
+        {
+          "key": "resume",
+          "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor esse sint aut sequi possimus",
+          "isFile": false
+        },
+        {
+          "key": "image_horizontal",
+          "value": "https://placehold.co/600x400.png",
+          "isFile": true
+        },
+        {
+          "key": "image_vertical",
+          "value": "https://placehold.co/400x600.png",
+          "isFile": true
+        },
+        {
+          "key": "infos",
+          "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor esse sint aut sequi possimus",
+          "isFile": false
+        }
+      ]
+    },
+    {
+      "name": "Sed mauris libero",
+      "type": "portfolio",
+      "fields": [
+        {
+          "key": "resume",
+          "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor esse sint aut sequi possimus",
+          "isFile": false
+        },
+        {
+          "key": "image_horizontal",
+          "value": "https://placehold.co/600x400.png",
+          "isFile": true
+        },
+        {
+          "key": "image_vertical",
+          "value": "https://placehold.co/400x600.png",
+          "isFile": true
+        },
+        {
+          "key": "infos",
+          "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor esse sint aut sequi possimus",
+          "isFile": false
+        }
+      ]
+    },
+    {
+      "name": "In non ligula et",
+      "type": "portfolio",
+      "fields": [
+        {
+          "key": "resume",
+          "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor esse sint aut sequi possimus",
+          "isFile": false
+        },
+        {
+          "key": "image_horizontal",
+          "value": "https://placehold.co/600x400.png",
+          "isFile": true
+        },
+        {
+          "key": "image_vertical",
+          "value": "https://placehold.co/400x600.png",
+          "isFile": true
+        },
+        {
+          "key": "infos",
+          "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor esse sint aut sequi possimus",
+          "isFile": false
+        }
+      ]
+    }
+  ],
+  "configs": [
+    {
+      "key": "logo",
+      "value": "https://placehold.co/250x60.png?text=Logo",
+      "isFile": true
+    },
+    {
+      "key": "theme",
+      "value": "dark",
+      "isFile": false
+    },
+    {
+      "key": "copyright",
+      "value": "Copyright © 2023 Cronos Theme - Todos os Direitos Reservados",
+      "isFile": false
+    },
+    {
+      "key": "socials",
+      "value": [
+        [
+          {
+            "key": "socials_icon",
+            "value": "https://placehold.co/25.png",
+            "isFile": true
+          },
+          {
+            "key": "socials_url",
+            "value": "https://github.com/devnicholas",
+            "isFile": false
+          }
+        ]
+      ],
+      "isFile": false
+    }
+  ]
+}
